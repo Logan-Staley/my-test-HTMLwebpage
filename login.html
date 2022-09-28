@@ -5,39 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="darkmode"href="darkmode.css">
+    <link rel="stylesheet"href="darkmode.css">
+    <link rel = "stylesheet" href = "style/Colors.css">
+    <link rel = "stylesheet" href = "style/navstyle.css">
 </head>
-<body>
-    <nav>
-        <a href="/index.html" target = "_blank">Home</a>
-        <a href="./Test/dashboard.html" target = "_blank"><Datal>Dashboard</Datal></a>
-    </nav>
-    <h1>Login</h1>
+<body class = "background">
+    
+    <div>
+
+        <nav class = "banner">
+            <a href="/index.html" target = "_blank" class = "btext">Home</a>
+            <a href="./Test/dashboard.html" target = "_blank" class = "btext"><Datal>Dashboard</Datal></a>
+            <div style = "float: right; text-align: right;">
+                <a href="/login.html" target = "_blank" class = "btext" ><Datal>Login</Datal></a>
+            </div>
+        </div>
+        </nav>
+        <h1 class = "title" style = "text-align: center">Login</h1>
     <form>
-        <div class = "mode">
+        <div class = "mode" style="color: #D1E8E2; text-align: center;" >
             Dark mode:
-            <span class = "change">Off</span>
+            <span class = "change" style = "text-align: center;">Off</span>
         </div>
-        <div>
-        <label >Email</label>
-        <input type = "email"></input>
+        <div style = "text-align: center;">
+        <label class = "btext" >Email</label>
+        <input type = "email" class = "background"  style = "text-align: center; color: white""></input>
         </div>
-        <div>
-        <label >Age</label>
-        <input type = "number"></input>
+        <div style = "text-align: center;">
+        <label class = "btext" style = "text-align: center;">Age</label>
+        <input type = "number" class = "background" style = "color: white"></input>
         </div>
-        <div>
-            <label >Date</label>
-            <input type ="date"></input>
+        <div style = "text-align: center;">
+            <label class = "btext">Date</label>
+            <input type ="date" class = "background" style = "color: white"></input>
         </div>
-        <div>
-        <label>Confirm<span>Password</span></label>
-        <input type = "password"></input>
+        <div style = "text-align: center;">
+        <label class = "btext">Confirm <span class = "btext">Password</span></label>
+        <input type = "password" class = "background" style = "color: white"></input>
         </div>
-                
-        <button>Submit</button>
-        <textarea rows="3">
-        </textarea>
+        <div style = "text-align: center;">
+            
+            <button class = "background" style = "color: #D1E8E2; text-align: center">Submit </button>
+            <textarea rows="3" style = "color: black; align-items: center">
+            </textarea>
+        </div>    
 
     </form>
 </body>
