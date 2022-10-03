@@ -2,6 +2,13 @@
   <!--<img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>      
   this above code implements the Helloworld.vue file-->
+  <div id="app">
+    <main>
+      <div class = "search-box">
+
+      </div>
+    </main>
+  </div>
 </template>
 
 <script>
@@ -10,12 +17,14 @@
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld
+    //this is the import for the helloworld component
   }
 }
 </script>
 
 <style>
+  /*
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,4 +33,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+*/
 </style>
