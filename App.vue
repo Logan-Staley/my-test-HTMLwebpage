@@ -4,9 +4,17 @@
   this above code implements the Helloworld.vue file-->
   <div id="app">
     <main>
+      <div>
+        <nav>
+          <ul>
+            
+          </ul>
+        </nav>
+      </div>
       <div class = "search-box">
         <input type="text" class="search-bar" placeholder="Search..."/>
       </div>
+      
     </main>
   </div>
 </template>
@@ -14,6 +22,7 @@
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
 //the above code imports the component Helloworld.vue
+
 export default {
   name: 'App',
   components: {
@@ -43,7 +52,7 @@ body{
   font-family: "montserrant", sans-serif;
 }
 #app{
-  background-image: url('./assets/background.jpg');
+  background-image: url('../assets/background.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s;
